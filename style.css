@@ -1,0 +1,63 @@
+.grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    text-align: center;
+  }
+
+.gold {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px 2em;
+  }
+  
+  .box :first-child {
+      align-self: center;
+      
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px 2em;
+    background-image: url(data:image/png;base64,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);
+    color: white;
+}
+  
+  section :first-child {
+      align-self: center;
+  }
+
+  .minions {
+    font-weight: bold;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 2em;
+    background-image: url(data:image/png;base64,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);
+    border: black 1px solid;
+}
+  
+  .minions:first-child {
+      align-self: center;
+  }
+
+  .point {
+      text-align: center;
+  }
+
+  body {
+      background-image: url(https://fr-minecraft.net/upload/wallpapers/images/fr-minecraft_wallpaper_7PDM.png);
+      background-size: cover;
+  }
+
+  button {
+    border:none;
+    background-color: transparent;
+}

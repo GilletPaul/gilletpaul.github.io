@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Minecraft Clicker</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="box">
+        <div><p><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c2f5.png" height="150"></p></div>
+        <div><section>
+            <div class=point><B><p id="p" ></p></B></div>
+            <div><B><p>Golds</p></B></div>
+            <div class=point><B><p id="g" ></p></B></div>
+            <div><B><p>Golds per second</p></B></div>
+        </section></div>
+    </div>
+    <div class="gold">
+        <button onclick="addGold(x)"><img src="https://static.wikia.nocookie.net/minecraft/images/d/d4/GoldOreNew.png/revision/latest?cb=20190907224653" height="400" width="400"></button><br><br>
+    </div>
+    <div class="grid">
+        <button onclick="buyMinion(1)"><img src="https://static.wikia.nocookie.net/minecraft/images/0/07/SlimeNew.png/revision/latest?cb=20200216230857" height="300"></button>
+        <button onclick="buyMinion(2)"><img src="https://i.pinimg.com/originals/93/d6/71/93d6716abdda3345384ce258844011c5.png" height="300"></button>
+        <button onclick="buyMinion(3)"><img src="https://static.wikia.nocookie.net/minecraft_fr_gamepedia/images/e/ed/Mob1.png/revision/latest?cb=20200109001018" height="300"></button>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps1><script>displayMGPS(1)</script></p>
+            <p>Cost:</p>
+            <p id="cost1"><script>displayCost(1)</script></p>
+        </div>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps2><script>displayMGPS(2)</script></p>
+            <p>Cost:</p>
+            <p id="cost2"><script>displayCost(2)</script></p>
+        </div>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps3><script>displayMGPS(3)</script></p>
+                <p>Cost:</p>
+            <p id="cost3"><script>displayCost(3)</script></p>
+        </div>
+    </div>
+</body>
