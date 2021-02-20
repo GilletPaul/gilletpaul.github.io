@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Minecraft Clicker</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="box">
+        <div><p><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c2f5.png" height="150"></p></div>
+        <div><section>
+            <div class=point><B><p id="p" ></p></B></div>
+            <div><B><p>Golds</p></B></div>
+            <div class=point><B><p id="g" ></p></B></div>
+            <div><B><p>Golds per second</p></B></div>
+        </section></div>
+    </div>
+    <div class="gold">
+        <button onclick="addGold(x)"><img src="GoldOre.png" height="400" width="400"></button><br><br>
+    </div>
+    <div class="grid">
+        <button onclick="buyMinion(1)"><img src="Slime.png" height="300"></button>
+        <button onclick="buyMinion(2)"><img src="blaze.png" height="300"></button>
+        <button onclick="buyMinion(3)"><img src="steve.png" height="300"></button>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps1><script>displayMGPS(1)</script></p>
+            <p>Cost:</p>
+            <p id="cost1"><script>displayCost(1)</script></p>
+        </div>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps2><script>displayMGPS(2)</script></p>
+            <p>Cost:</p>
+            <p id="cost2"><script>displayCost(2)</script></p>
+        </div>
+        <div class="minions">
+            <p>Gold per second</p>
+            <p id=gps3><script>displayMGPS(3)</script></p>
+                <p>Cost:</p>
+            <p id="cost3"><script>displayCost(3)</script></p>
+        </div>
+    </div>
+</body>
