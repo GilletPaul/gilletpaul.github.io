@@ -30,7 +30,6 @@ body {
 }
 
 .title {
-    font-size: 51px;
     font-weight: 700;
     color: #396AF1;
     font-family: 'Barlow';
@@ -38,7 +37,6 @@ body {
 }
 
 .title1 {
-    font-size: 42px;
     font-weight: 700;
     color: #396AF1;
     font-family: 'Barlow';
@@ -46,7 +44,6 @@ body {
 }
 
 .title2 {
-    font-size: 21px;
     font-weight: 700;
     color: #396AF1;
     font-family: 'Barlow';
@@ -56,7 +53,6 @@ body {
 
 .description {
     font-family: 'Montserrat';
-    font-size: 17px;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -83,12 +79,8 @@ body {
 }
 
 .number {
-    width: 38px;
-    height: 38px;
     display: inline-block;
     box-shadow: inset 4px 4px 5px rgba(45, 1, 61, 0.10), inset -4px -4px 3px white;
-    border-radius: 10px;
-    font-size: 25px;
     font-weight: 700;
     color: #396AF1;
     font-family: 'Barlow';
@@ -105,9 +97,7 @@ body {
 
 .engagements .box {
     text-align: left;
-    width: 280px;
     display: grid;
-    grid-template-columns: 38px 220px;
     justify-content: space-between;
 }
 
@@ -115,10 +105,6 @@ body {
     display: inline-block;
 }
 
-.engagements .box .text .title2 {
-    height: 38px;
-    vertical-align: middle;
-}
 
 .valeurs {
     box-shadow: 0px -3px 19px white;
@@ -213,7 +199,6 @@ body {
     font-family: 'Poppins', sans-serif;
     display: block;
     margin-top: 50px;
-    width: 260px;
     padding: 20px;
 }
 
@@ -521,7 +506,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #EEEFF5;
-    color: black;
+    /* color: black; */
     overflow: hidden;
     z-index: 5;
     /* Ensure the navbar stays on top of other elements */

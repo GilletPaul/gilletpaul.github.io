@@ -5,8 +5,48 @@
         margin: 0;
     }
 
+    .title {
+        font-size: 51px;
+    }
+
+    .title1 {
+        font-size: 42px;
+    }
+
+    .title2 {
+        font-size: 21px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .number {
+        width: 38px;
+        height: 38px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .engagements .box .text .title2 {
+        height: 38px;
+        vertical-align: middle;
+    }
+
+    .activite .box {
+        width: 260px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
     #size1 {
         display: block;
+    }
+
+    #size1 p {
+        font-size: 20px;
     }
 
     #size2 {
@@ -71,10 +111,17 @@
 
     .engagements .box {
         margin-bottom: 20px;
+        grid-template-columns: 38px 220px;
+        width: 280px;
     }
 
     .container {
         grid-template-columns: 300px;
+        font-size: 22px;
+    }
+
+    .container p {
+        font-size: 22px;
     }
 
     .orga .block {
@@ -82,11 +129,177 @@
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
+    .list-img img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 100px;
+    }
+
+    .title1 {
+        font-size: 80px;
+    }
+
+    .title2 {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 40px;
+    }
+
+    .number {
+        width: 63px;
+        height: 63px;
+        font-size: 50px;
+        border-radius: 20px;
+    }
+
+    .engagements .box .text .title2 {
+        height: 70px;
+        vertical-align: middle;
+    }
+
+    .activite .box {
+        width: 640px;
+    }
+
+    .navbar a {
+        font-size: 40px;
+    }
+
+    #size1 {
+        display: block;
+    }
+
+    #size1 p {
+        font-size: 42px;
+    }
+
+    #size2 {
+        display: none;
+    }
+
+    .content {
+        width: 700px;
+        height: 1100px;
+    }
+
+    .top .content {
+        height: 2050px;
+    }
+
+    .header {
+        height: 880px;
+        width: 700px;
+        grid-template-columns: 700px;
+    }
+
+    .header .text {
+        height: 500px;
+        width: 650px;
+        padding: 50px 25px 0 25px;
+        text-align: center;
+    }
+
+    .header .pic {
+        display: none;
+    }
+
+    .header .pic img {
+        font-family: '5061756C2047494C4C4554';
+        display: none;
+    }
+
+    .content1 {
+        width: 700px;
+    }
+
+    .valeurs .block {
+        margin: 81px 14px 81px 14px;
+    }
+
+    .activite .block {
+        margin: 81px 14px 81px 14px;
+    }
+
+    .engagements .content1 .block {
+        width: 622px;
+        height: 1500px;
+    }
+
+    .engagements .grid {
+        grid-template-columns: 660px;
+    }
+
+    .engagements .block {
+        padding: 47px 34px 47px 34px;
+    }
+
+    .engagements .box {
+        margin-bottom: 20px;
+        grid-template-columns: 63px 570px;
+        width: 660px;
+    }
+
+    .container {
+        grid-template-columns: 680px;
+    }
+
+    .container p {
+        font-size: 42px;
+    }
+
+    .orga .block {
+        padding: 81px 14px 81px 14px;
+    }
+}
+
+@media (min-width: 1000px) {
     .list-img img {
         width: 32%;
         padding: 0;
         margin: 0;
+    }
+
+    .title {
+        font-size: 51px;
+    }
+
+    .title1 {
+        font-size: 42px;
+    }
+
+    .title2 {
+        font-size: 21px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .number {
+        width: 38px;
+        height: 38px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .engagements .box .text .title2 {
+        height: 38px;
+        vertical-align: middle;
+    }
+
+    .activite .box {
+        width: 260px;
+    }
+
+    .navbar a {
+        font-size: 16px;
     }
 
     #size2 {
@@ -156,10 +369,16 @@
 
     .engagements .box {
         margin-bottom: 0;
+        grid-template-columns: 38px 220px;
+        width: 280px;
     }
 
     .container {
         grid-template-columns: 300px 300px;
+    }
+
+    .container p {
+        font-size: 22px;
     }
 
     .orga .block {
@@ -174,8 +393,48 @@
         margin: 0;
     }
 
+    .title {
+        font-size: 51px;
+    }
+
+    .title1 {
+        font-size: 42px;
+    }
+
+    .title2 {
+        font-size: 21px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .number {
+        width: 38px;
+        height: 38px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .engagements .box .text .title2 {
+        height: 38px;
+        vertical-align: middle;
+    }
+
+    .activite .box {
+        width: 260px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
     #size1 {
         display: block;
+    }
+
+    #size1 p {
+        font-size: 20px;
     }
 
     #size2 {
@@ -242,10 +501,17 @@
 
     .engagements .box {
         margin-bottom: 0px;
+        grid-template-columns: 38px 220px;
+        width: 280px;
     }
 
     .container {
         grid-template-columns: 300px 300px 300px;
+        font-size: 22px;
+    }
+
+    .container p {
+        font-size: 22px;
     }
 
     .orga .block {
