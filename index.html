@@ -1,88 +1,622 @@
-    <iframe id="frame"
-        title="Inline Frame Example"
-        width="100%"
-        height="100%"
-        src="cv.html">
-    </iframe>
+<!DOCTYPE html>
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Paul GILLET
-        </title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style2.css">
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script type="application/ld+json">
-          {"@context":"http://schema.org","@type":"Website","name":"Paul Gillet","headline":"Paul Gillet","author":{"@type":"Person","name":"Paul Gillet"},"description":"Portfolio de Paul Gillet","url":"gilletpaul.github.io"}
-          <style>
-        </script>
-        <script src="https://kit.fontawesome.com/9bdc906322.js"></script>
-          <script type = "text/javascript">
-              alert ("Site mis a jour en février 2021");  
-          </script>
-      </head>
-      <body>
-        <section class="section projects is-medium is-white has-text-centered">
-          <div class="container is-narrow">
-            <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Mes récents travaux</h1>
-            <h2 class="subtitle is-size-5-desktop">Voici quelques projets sur lesquels j'ai travaillé récemment. Vous voulez en savoir plus? <a href="index.html">Contactez moi</a>.</h2>
-            <div class="project-grid">  
-              <div class="columns is-multiline is-mobile">
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/Fond Minecraft.JPG">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">J'ai développé un jeu style clicker game sur le thème de Minecraft en javascript</h1><a class="button is-primary is-outlined is-rounded" href="Clicker/index.html" target="_blank"><span>Voir le site</span><span class="icon"><i class="fas fa-angle-right"></i></span></a>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar" id="navbar"><b>
+            <a href="#contact">Contact</a>
+            <a href="#realisations">Réalisations</a>
+            <a href="#valeurs">Valeurs</a>
+            <a href="#qui-suis-je">Qui suis-je?</a></b>
+    </div>
+    <div class="top">
+        <div class="content" id="qui-suis-je">
+            <div class="header">
+                <div class="text">
+                    <div class="title">Paul GILLET</div><br>
+                    <div class="title2">Apprenti chef de projet fonctionnel et technique</div><br><br>
+                    <div class="description">
+                        Étudiant à l'ETNA (École des Technologies Numérique Appliquées), je m'oriente vers un parcours
+                        de chef de projet après
+                        différente expérience professionnelle.<br>
+                        Après un premier contrat d’apprentissage au sein d'une startup de services informatiques et un
+                        second chez Carrefour CSI, j'ai eu l'occasion de développer divers outils et de commencer ma
+                        formation de chef de projet.<br>
+                        Actuellement en cours de validation d'un master 2 d'architecte logiciel et développeur
+                        d'application, je termine mon cursus d'apprentissage en décembre 2024. <br>
+                        Mon envie d'apprendre m'a également attiré vers les nouvelles intelligences artificielles que je
+                        manipule dès que j'en ai l'occasion.
+                    </div>
                 </div>
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop"> 
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/map.JPG">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">Mon équipe et moi avons développé un site permettant l'affichage de marché sur une map afin que notre client puisse le mettre sur son site.</h1><a class="button is-primary is-outlined is-rounded" href="https://marketmap.000webhostapp.com" target="_blank"><span>Voir le site</span><span class="icon"><i class="fas fa-angle-right"></i></span></a>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
+                <div class="pic">
+                    <img src="img/paul.jpg">
                 </div>
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/Zelda.JPG">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">J'ai développé un RPG dans le thème de The Legend of Zelda en Bash avec une génération aléatoire des ennemis, du Boss final ainsi que du personnage principal.</h1>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
-                </div>
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/laravel.JPG">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">Mes camarades et moi avons créé un site d'e-commerce en laravel. Le site n'a pas été héberger et a été créé pour un projet de l'ETNA.</h1>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
-                </div>
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop"> 
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/ruche.png">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">L'objectif était créer une ruche connectée en équipe. J'ai développé une page web permettant l'affichage de la température intérieure et extérieure et le poids de la ruche.</h1>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
-                </div>
-                <div class="column is-12-mobile is-half-tablet is-one-third-desktop"> 
-                  <figure class="image is-3by2"><img class="project-thumb" src="img/discord.JPG">
-                    <figcaption>
-                      <h1 class="title is-size-5 is-size-4-widescreen">J'ai développé un bot discord en javascript répondant aux commandes de l'utilisateur.</h1>
-                    </figcaption>
-                    <div class="overlay"></div>
-                  </figure>
-                </div>
-              </div>
             </div>
-            <div class="columns is-centered">
-              <div class="column"><a class="button is-primary is-outlined is-rounded is-medium" href="CV Paul GILLET.pdf" target="_blank"><span class="icon"><i class="fab fa-dribbble"></i></span><span>Télécharger mon CV</span></a></div>
+        </div>
+    </div>
+    <div class="engagements" id="valeurs">
+        <div class="content1">
+            <div class="block">
+                <div class="title1">
+                    Mes valeurs
+                </div>
+                <div class="grid">
+                    <div class="box">
+                        <div class="number">1</div>
+                        <div class="text">
+                            <div class="title2">Innovation</div>
+                            <div class="description">
+                                Je suis m'intéresse constamment aux nouvelles technologies et à ce qu'elles apportent,
+                                et j'essaie de les implémenter dans mes travaux.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="number">2</div>
+                        <div class="text">
+                            <div class="title2">Hybride</div>
+                            <div class="description">
+                                J'ai des facilités à travailler seul comme en équipe, sur site ou en télétravail, la
+                                qualité de mon travail n'est pas impactée.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="number">3</div>
+                        <div class="text">
+                            <div class="title2">Intégrité</div>
+                            <div class="description">
+                                Je mets un point d'honneur à être intègre, mettant de l'importance dans la distinction
+                                entre ma vie personnelle et professionnelle.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </section>
-      </body>
-    </html>
+        </div>
+    </div>
+    <!-- <div class="valeurs">
+        <div class="content1">
+            <div class="block">
+                <div class="title1">
+                    Nos valeurs
+                </div><br>
+                <div class="description">
+                    Établir une réputation solide par l’action et la satisfaction
+                </div>
+                <div class="container">
+                    <div class="fiabilite">
+                        <div class="box">
+                            <div class="title3">
+                                <b>Fiabilité</b>
+                            </div>
+                            <div class="description1">
+                                <p>La D&S s’engage à déployer dans la précision, la ponctualité et sans erreur</p>
+                            </div>
+                        </div>
+                        <div class="triangle-topleft"></div>
+                    </div>
+                    <div class="qualite">
+                        <div class="box">
+                            <div class="title3">
+                                <b>Qualité</b>
+                            </div>
+                            <div class="description1">
+                                <p>La direction D&S s’engage à déployer des matériels aux normes de qualité établies,
+                                    offrant ainsi une expérience utilisateur optimale</p>
+                            </div>
+                        </div>
+                        <div class="triangle-topleft"></div>
+                    </div>
+                    <div class="service">
+                        <div class="box">
+                            <div class="title3">
+                                <b>Service clients</b>
+                            </div>
+                            <div class="description1">
+                                <p>s'engage tout au long du processus de déploiement à communiquer avec son client,
+                                    l’écouter et l’assister</p>
+                            </div>
+                        </div>
+                        <div class="triangle-topleft"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="activite" id="realisations">
+        <div class="content1">
+            <div class="block">
+                <div class="title1">
+                    Mes réalisations
+                </div><br>
+                <div class="description">
+                    Quelques-uns des projets que j'ai pu réaliser chez Carrefour, avec mes études ou personnel.
+                </div>
+                <div id="size1">
+                    <div class="container">
+                        <button id="show-content1" class="showbutton">
+                            <div class="vision">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Centralized</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
+                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider12">
+                            <div class="title2">Centralized</div><br><br>
+                            <p>Centralized est un outil de gestion de projet qui est en cours de développement. Cet
+                                outil
+                                est
+                                réalisé de la cadre de mon projet de fin d'étude.<br>
+                                Centralized permet de générer des cahiers de charges avec de l'IA en fonction des
+                                informations
+                                qu'on lui donne. Les données sont utilisées aussi pour générer des tickets et un
+                                planning.<br>
+                                Enfin, on clôture le projet avec un REX.</p><br>
+                            <p>Quelques screenshots de la maquette:<br><br></p>
+                            <div class="list-img">
+                                <img src="img/Centralized-acceuil.png" alt="page d'accueil maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/Centralized-acceuil.png">&nbsp
+                                <img src="img/Centralized-acceuil-2.png" alt="page d'accueil maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/Centralized-acceuil-2.png">&nbsp
+                                <img src="img/Centralized-login.png" alt="page login maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/Centralized-login.png">
+                            </div>
+                        </div>
+                        <button id="show-content2" class="showbutton">
+                            <div class="mission">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Bot Discord</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
+                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
+                                        clients
+                                        finaux.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider22">
+                            <div class="title2">Bot Discord</div><br><br>
+                            <p>J'ai réalisé un bot discord en javascript.<br>
+                                Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter
+                                à
+                                l'API
+                                de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il
+                                est
+                                également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer
+                                le
+                                son
+                                en question. </p>
+                        </div>
+                        <button id="show-content3" class="showbutton">
+                            <div class="valeur">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>OSP Patching</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
+                                        Nous
+                                        visons l'excellence.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider1">
+                        <div class="title2">Centralized</div><br><br>
+                        <p>Centralized est un outil de gestion de projet qui est en cours de développement. Cet outil
+                            est
+                            réalisé de la cadre de mon projet de fin d'étude.<br>
+                            Centralized permet de générer des cahiers de charges avec de l'IA en fonction des
+                            informations
+                            qu'on lui donne. Les données sont utilisées aussi pour générer des tickets et un
+                            planning.<br>
+                            Enfin, on clôture le projet avec un REX.</p><br>
+                        <p>Quelques screenshots de la maquette:<br><br></p>
+                        <div class="list-img">
+                            <img src="img/Centralized-acceuil.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-acceuil.png">&nbsp
+                            <img src="img/Centralized-acceuil-2.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-acceuil-2.png">&nbsp
+                            <img src="img/Centralized-login.png" alt="page login maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-login.png">
+                        </div>
+                    </div>
+                    <div class="hider" id="hider2">
+                        <div class="title2">Bot Discord</div><br><br>
+                        <p>J'ai réalisé un bot discord en javascript.<br>
+                            Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter à
+                            l'API
+                            de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il est
+                            également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer le
+                            son
+                            en question. </p>
+                    </div>
+                    <div class="hider" id="hider3">
+                        <div class="title2">OSP Patching</div><br><br>
+                        <p>OSP Patching était un outil que j'ai développé sur une application web appelé OSP. OSP était
+                            une
+                            application développée intégralement par des alternants comme moi.<br>
+                            L'outil que j'y ai développé était un calendrier de référencement de date de patching sur
+                            des
+                            machines. Il était développé en Angular et Node.js. </p>
+                    </div>
+                    <div class="container">
+                        <button id="show-content4" class="showbutton">
+                            <div class="vision1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>KIM</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
+                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider42">
+                            <div class="title2">KIM</div><br><br>
+                            <p>KIM (KPI IT Magasins) est une application de visualisation de KPI de déploiement pour les
+                                magasins Carrefour. <br>
+                                L'objectif de cette application était de voir les déploiements à venir ainsi que les
+                                erreurs
+                                dans les déploiements (retard, déploiement mal renseigné, etc...)<br><br>
+                                Ce projet fut un projet essentiel de ma dernière mission. </p>
+                            <p>Quelques screenshots du projet terminé:<br><br></p>
+                            <div class="list-img">
+                                <img src="img/KIM-acceil.png" alt="page d'accueil maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/KIM-acceil.png">&nbsp
+                                <img src="img/KIM-deploiement.png" alt="page d'accueil maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/KIM-deploiement.png">&nbsp
+                                <img src="img/KIM-error.png" alt="page login maquette Centralized"
+                                    class="fullscreen-trigger" data-src="img/KIM-error.png">
+                            </div>
+                        </div>
+                        <button id="show-content5" class="showbutton">
+                            <div class="mission1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Look at Me</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
+                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
+                                        clients
+                                        finaux.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider52">
+                            <div class="title2">Look at Me</div><br><br>
+                            <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu
+                                vidéo
+                                type
+                                visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez
+                                les
+                                jeunes.<br>
+                                Notre objectif était de faire un jeu choc pour marquer les esprits. Nous l'avons réalisé
+                                avec
+                                Unity.</p>
+                        </div>
+                        <button id="show-content6" class="showbutton">
+                            <div class="valeur1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Vitrine</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
+                                        Nous
+                                        visons l'excellence.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider4">
+                        <div class="title2">KIM</div><br><br>
+                        <p>KIM (KPI IT Magasins) est une application de visualisation de KPI de déploiement pour les
+                            magasins Carrefour. <br>
+                            L'objectif de cette application était de voir les déploiements à venir ainsi que les erreurs
+                            dans les déploiements (retard, déploiement mal renseigné, etc...)<br><br>
+                            Ce projet fut un projet essentiel de ma dernière mission. </p>
+                        <p>Quelques screenshots du projet terminé:<br><br></p>
+                        <div class="list-img">
+                            <img src="img/KIM-acceil.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-acceil.png">&nbsp
+                            <img src="img/KIM-deploiement.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-deploiement.png">&nbsp
+                            <img src="img/KIM-error.png" alt="page login maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-error.png">
+                        </div>
+                    </div>
+                    <div class="hider" id="hider5">
+                        <div class="title2">Look at Me</div><br><br>
+                        <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu vidéo
+                            type
+                            visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez les
+                            jeunes.<br>
+                            Notre objectif était de faire un jeu choc pour marquer les esprits. Nous l'avons réalisé
+                            avec
+                            Unity.</p>
+                    </div>
+                    <div class="hider" id="hider6">
+                        <div class="title2">Vitrine</div><br><br>
+                        <p>J'ai eu l'occasion de réaliser des sites vitrine que ce soit cette année pour ma direction ou
+                            encore des portefolios pour des amis. </p><br>
+                        <a href="https://elenadavid.github.io" target="_blank"><button class="pushable">
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span id="close-overlay" class="front">
+                                    Portfolio Elena David
+                                </span>
+                            </button></a>
+                    </div>
+                </div>
+                <div id="size2">
+                    <div class="container">
+                        <button id="show-content13" class="showbutton">
+                            <div class="vision">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Centralized</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
+                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button id="show-content23" class="showbutton">
+                            <div class="mission">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Bot Discord</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
+                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
+                                        clients
+                                        finaux.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider13">
+                        <div class="title2">Centralized</div><br><br>
+                        <p>Centralized est un outil de gestion de projet qui est en cours de développement. Cet outil
+                            est
+                            réalisé de la cadre de mon projet de fin d'étude.<br>
+                            Centralized permet de générer des cahiers de charges avec de l'IA en fonction des
+                            informations
+                            qu'on lui donne. Les données sont utilisées aussi pour générer des tickets et un
+                            planning.<br>
+                            Enfin, on clôture le projet avec un REX.</p><br>
+                        <p>Quelques screenshots de la maquette:<br><br></p>
+                        <div class="list-img">
+                            <img src="img/Centralized-acceuil.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-acceuil.png">&nbsp
+                            <img src="img/Centralized-acceuil-2.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-acceuil-2.png">&nbsp
+                            <img src="img/Centralized-login.png" alt="page login maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/Centralized-login.png">
+                        </div>
+                    </div>
+                    <div class="hider" id="hider23">
+                        <div class="title2">Bot Discord</div><br><br>
+                        <p>J'ai réalisé un bot discord en javascript.<br>
+                            Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter à
+                            l'API
+                            de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il est
+                            également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer le
+                            son
+                            en question. </p>
+                    </div>
+                    <div class="container">
+                        <button id="show-content33" class="showbutton">
+                            <div class="valeur">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>OSP Patching</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
+                                        Nous
+                                        visons l'excellence.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button id="show-content43" class="showbutton">
+                            <div class="vision1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>KIM</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
+                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider33">
+                        <div class="title2">OSP Patching</div><br><br>
+                        <p>OSP Patching était un outil que j'ai développé sur une application web appelé OSP. OSP était
+                            une
+                            application développée intégralement par des alternants comme moi.<br>
+                            L'outil que j'y ai développé était un calendrier de référencement de date de patching sur
+                            des
+                            machines. Il était développé en Angular et Node.js. </p>
+                    </div>
+                    <div class="hider" id="hider43">
+                        <div class="title2">KIM</div><br><br>
+                        <p>KIM (KPI IT Magasins) est une application de visualisation de KPI de déploiement pour les
+                            magasins Carrefour. <br>
+                            L'objectif de cette application était de voir les déploiements à venir ainsi que les
+                            erreurs
+                            dans les déploiements (retard, déploiement mal renseigné, etc...)<br><br>
+                            Ce projet fut un projet essentiel de ma dernière mission. </p>
+                        <p>Quelques screenshots du projet terminé:<br><br></p>
+                        <div class="list-img">
+                            <img src="img/KIM-acceil.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-acceil.png">&nbsp
+                            <img src="img/KIM-deploiement.png" alt="page d'accueil maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-deploiement.png">&nbsp
+                            <img src="img/KIM-error.png" alt="page login maquette Centralized"
+                                class="fullscreen-trigger" data-src="img/KIM-error.png">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <button id="show-content53" class="showbutton">
+                            <div class="mission1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Look at Me</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
+                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
+                                        clients
+                                        finaux.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button id="show-content63" class="showbutton">
+                            <div class="valeur1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Vitrine</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
+                                        Nous
+                                        visons l'excellence.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider53">
+                        <div class="title2">Look at Me</div><br><br>
+                        <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu vidéo
+                            type
+                            visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez les
+                            jeunes.<br>
+                            Notre objectif était de faire un jeu choc pour marquer les esprits. Nous l'avons réalisé
+                            avec
+                            Unity.</p>
+                    </div>
+                    <div class="hider" id="hider63">
+                        <div class="title2">Vitrine</div><br><br>
+                        <p>J'ai eu l'occasion de réaliser des sites vitrine que ce soit cette année pour ma direction ou
+                            encore des portefolios pour des amis. </p><br>
+                        <a href="https://elenadavid.github.io" target="_blank"><button class="pushable">
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span id="close-overlay" class="front">
+                                    Portfolio Elena David
+                                </span>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="orga" id="contact">
+        <div class="content1">
+            <div class="block">
+                <div class="title1">
+                    Me contacter
+                </div><br>
+                <div class="description">
+                    N'hésitez pas à me contacter par les moyens suivants: <br><br>
+                </div>
+                <div class="grid">
+                    <div class="box">
+                        <div class="text">
+                            <div class="title2">Mail</div>
+                            <div class="description">
+                                pgillet.iphone@gmail.com
+                                paul_gillet@carrefour.com
+                                gillet_p@etna-alternance.net
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <div class="title2">LikedIn</div>
+                            <div class="description">
+                                <a href="https://www.linkedin.com/in/paul-gillet-etna/"
+                                    target="_blank">paul-gillet-etna</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <div class="title2">Github</div>
+                            <div class="description">
+                                <a href="https://github.com/GilletPaul" target="_blank">GilletPaul</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttoncv">
+                    <button class="pushable" id="downloadButton" onclick="downloadPDF()">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span id="close-overlay" class="front">
+                            Télécharger mon CV
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fullscreen-container">
+        <img src="" alt="Fullscreen Image" id="fullscreen-image" onclick="closeFullscreen()">
+    </div>
+    <div class="footer">
+        <div class="content1">
+            <div class="block">
+                <!-- <div class="pic">
+                    <img src="https://storage.googleapis.com/osf-email-template/Logo%20AL2.png">
+                </div> -->
+                <div class="description">
+                    Copyright © Portfolio Paul Gillet<br><br><br>
+                    Mise à jour: Décembre 2023
+                    <!-- Réalisé par Paul GILLET -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay">
+        <img src="img/Centralized-acceuil.png">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/downloadfile.js"></script>
+    <script src="js/image-fullscreen.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/realisations.js"></script>
+</body>

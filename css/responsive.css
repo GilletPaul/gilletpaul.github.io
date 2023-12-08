@@ -1,0 +1,259 @@
+@media (min-width: 0px) {
+    .list-img img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #size1 {
+        display: block;
+    }
+
+    #size2 {
+        display: none;
+    }
+
+    .content {
+        width: 320px;
+        height: 1100px;
+    }
+
+    .top .content {
+        height: 950px;
+    }
+
+    .header {
+        height: 880px;
+        width: 320px;
+        grid-template-columns: 320px;
+    }
+
+    .header .text {
+        height: 500px;
+        width: 270px;
+        padding: 50px 25px 0 25px;
+        text-align: center;
+    }
+
+    .header .pic {
+        display: none;
+    }
+
+    .header .pic img {
+        font-family: '5061756C2047494C4C4554';
+        display: none;
+    }
+
+    .content1 {
+        width: 320px;
+    }
+
+    .valeurs .block {
+        margin: 81px 14px 81px 14px;
+    }
+
+    .activite .block {
+        margin: 81px 14px 81px 14px;
+    }
+
+    .engagements .content1 .block {
+        width: 252px;
+        height: 810px;
+    }
+
+    .engagements .grid {
+        grid-template-columns: 280px;
+    }
+
+    .engagements .block {
+        padding: 47px 34px 47px 34px;
+    }
+
+    .engagements .box {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        grid-template-columns: 300px;
+    }
+
+    .orga .block {
+        padding: 81px 14px 81px 14px;
+    }
+}
+
+@media (min-width: 700px) {
+    .list-img img {
+        width: 32%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #size2 {
+        display: block;
+    }
+
+    #size1 {
+        display: none;
+    }
+
+    .content {
+        width: 700px;
+        height: 1100px;
+    }
+
+    .top .content {
+        height: 530px;
+
+    }
+
+    .header {
+        height: 510px;
+        width: 700px;
+        grid-template-columns: 700px;
+    }
+
+    .header .text {
+        height: 500px;
+        width: 600px;
+        padding: 50px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .header .pic {
+        display: none;
+    }
+
+    .header .pic img {
+        font-family: '5061756C2047494C4C4554';
+        display: none;
+    }
+
+    .content1 {
+        width: 700px;
+    }
+
+    .valeurs .block {
+        margin: 81px 34px 81px 34px;
+    }
+
+    .activite .block {
+        margin: 81px 34px 81px 34px;
+    }
+
+    .engagements .content1 .block {
+        width: 572px;
+        height: 550px;
+    }
+
+    .engagements .grid {
+        grid-template-columns: 280px 280px;
+    }
+
+    .engagements .block {
+        padding: 47px 64px 47px 64px;
+    }
+
+    .engagements .box {
+        margin-bottom: 0;
+    }
+
+    .container {
+        grid-template-columns: 300px 300px;
+    }
+
+    .orga .block {
+        padding: 81px 34px 81px 34px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .list-img img {
+        width: 32%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #size1 {
+        display: block;
+    }
+
+    #size2 {
+        display: none;
+    }
+
+    .content {
+        width: 1100px;
+        height: 1100px;
+    }
+
+    .top .content {
+        height: 630px;
+    }
+
+    .header {
+        height: 610px;
+        width: 1100px;
+        grid-template-columns: 750px 350px;
+    }
+
+    .header .text {
+        height: 500px;
+        width: 630px;
+        padding: 100px 70px 0px 50px;
+        text-align: left;
+    }
+
+    .header .pic {
+        width: 350px;
+        height: 600px;
+        display: block;
+    }
+
+    .header .pic img {
+        font-family: '5061756C2047494C4C4554';
+        display: block;
+    }
+
+    .content1 {
+        width: 1100px;
+    }
+
+    .valeurs .block {
+        margin: 81px 64px 81px 64px;
+    }
+
+    .activite .block {
+        margin: 81px 64px 81px 64px;
+    }
+
+    .engagements .content1 .block {
+        width: 972px;
+        height: 350px;
+    }
+
+    .engagements .grid {
+        grid-template-columns: 280px 280px 280px;
+    }
+
+    .engagements .block {
+        padding: 47px 64px 47px 64px;
+    }
+
+    .engagements .box {
+        margin-bottom: 0px;
+    }
+
+    .container {
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    .orga .block {
+        padding: 81px 64px 81px 64px;
+    }
+
+    .orga .grid {
+        grid-template-columns: 300px 300px 300px;
+
+    }
+}
