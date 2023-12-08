@@ -259,7 +259,7 @@
     }
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1300px) {
     .list-img img {
         width: 32%;
         padding: 0;
@@ -384,9 +384,9 @@
     .orga .block {
         padding: 81px 34px 81px 34px;
     }
-}
+} */
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
     .list-img img {
         width: 32%;
         padding: 0;
