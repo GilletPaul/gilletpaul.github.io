@@ -39,6 +39,7 @@
 
     .navbar a {
         font-size: 16px;
+        padding: 14px 16px;
     }
 
     #size1 {
@@ -127,6 +128,24 @@
     .orga .block {
         padding: 81px 14px 81px 14px;
     }
+
+    .orga .grid {
+        grid-template-columns: 300px;
+    }
+
+    .engagements .description {
+        padding-right: 0;
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    .front {
+        padding: 16px 32px;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
 }
 
 @media (min-width: 500px) {
@@ -170,6 +189,7 @@
 
     .navbar a {
         font-size: 40px;
+        padding: 28px 32px;
     }
 
     #size1 {
@@ -229,7 +249,7 @@
 
     .engagements .content1 .block {
         width: 622px;
-        height: 1500px;
+        height: 1550px;
     }
 
     .engagements .grid {
@@ -256,6 +276,24 @@
 
     .orga .block {
         padding: 81px 14px 81px 14px;
+    }
+
+    .orga .grid {
+        grid-template-columns: 672px;
+    }
+
+    .engagements .description {
+        padding-right: 34px;
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    .front {
+        padding: 32px 64px;
+        font-size: 3rem;
+        border-radius: 16px;
     }
 }
 
@@ -427,6 +465,7 @@
 
     .navbar a {
         font-size: 16px;
+        padding: 14px 16px;
     }
 
     #size1 {
@@ -520,6 +559,19 @@
 
     .orga .grid {
         grid-template-columns: 300px 300px 300px;
+    }
 
+    .engagements .description {
+        padding-right: 0;
+    }
+
+    body {
+        background-size: auto;
+    }
+
+    .front {
+        padding: 16px 32px;
+        font-size: 1rem;
+        border-radius: 8px;
     }
 }
