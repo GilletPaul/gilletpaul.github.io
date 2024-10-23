@@ -375,6 +375,7 @@ body {
 .showbutton {
     border: none;
     text-align: left;
+    backgroung: none;
 }
 
 .pushable {
