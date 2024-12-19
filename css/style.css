@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 
-.orga .grid {
+.engagements .grid {
     display: grid;
     justify-content: space-between;
 }
@@ -78,6 +78,15 @@ body {
     box-shadow: 10px 10px 8px rgba(45, 1, 61, 0.10), -6px -6px 8px white;
     border-radius: 30px;
     background-color: #EEEFF5;
+    text-align: center;
+}
+
+.engagements .title1, .engagements .description {
+    text-align: center;
+}
+
+.orga .title1 {
+    text-align: left;
 }
 
 .number {
@@ -91,19 +100,19 @@ body {
     text-align: center;
 }
 
-.engagements .grid {
+.orga .grid {
     display: grid;
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.engagements .box {
+.orga .box {
     text-align: left;
     display: grid;
     justify-content: space-between;
 }
 
-.engagements .box .text {
+.orga .box .text {
     display: inline-block;
 }
 
@@ -214,42 +223,43 @@ body {
 
 .activite .mission .box {
     border: 4px solid #015f98;
-    background-image: url(../img/discord.png);
+    background-image: url(../img/logo-carrefour.png);
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 70%;
 }
 
 .activite .valeur .box {
     border: 4px solid #ad1f96;
-    background-image: url(../img/logo_OSP.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-}
-
-.activite .vision1 .box {
-    border: 4px solid #9fc5e8;
     background-image: url(../img/KIM-logo.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 50% 60%;
 }
 
-.activite .mission1 .box {
-    border: 4px solid #6d9eeb;
-    background-image: url(../img/lam.png);
-    background-size: 100%;
+.activite .vision1 .box {
+    border: 4px solid #9fc5e8;
+    background-image: url(../img/logo_OSP.png);
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 80%;
 }
 
-.activite .valeur1 .box {
-    border: 4px solid #674ea7;
+.activite .mission1 .box {
+    border: 4px solid #6d9eeb;
     background-image: url(../img/Vitrine.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 50% 60%;
+}
+
+.activite .valeur1 .box {
+    border: 4px solid #674ea7;
+    
+    background-image: url(../img/lam.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
 
 .activite .title3 {
@@ -298,19 +308,19 @@ body {
     box-shadow: 0px -3px 19px white;
 }
 
-.orga .block {
+.engagements .block {
     text-align: left;
 }
 
-.orga .pic {
+.engagements .pic {
     padding: 50px 0 50px 0;
 }
 
-.orga img {
+.engagements img {
     width: 50px;
 }
 
-.orga .pic img {
+.engagements .pic img {
     width: 100%;
     font-family: '5061756C2047494C4C4554';
 }
@@ -493,12 +503,12 @@ body {
     z-index: 10;
 }
 
-.orga .box {
+.engagements .box {
     display: inline-block;
     text-align: center;
 }
 
-.orga .buttoncv {
+.engagements .buttoncv {
     text-align: center;
     padding-top: 50px;
 }

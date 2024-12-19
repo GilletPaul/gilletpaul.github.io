@@ -12,23 +12,32 @@
 
 <body>
     <div class="navbar" id="navbar"><b>
-            <a href="#contact">Contact</a>
-            <a href="#realisations">Réalisations</a>
-            <a href="#valeurs">Valeurs</a>
-            <a href="#qui-suis-je">Qui suis-je?</a></b>
+            <div class="size-bar">
+                <a href="#valeurs">Valeurs</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#contact">Contact</a>
+                <a href="#qui-suis-je">Qui suis-je?</a>
+            </div>
+        </b>
     </div>
     <div class="top">
         <div class="content" id="qui-suis-je">
             <div class="header">
                 <div class="text">
                     <div class="title">Paul GILLET</div><br>
-                    <div class="title2">Apprenti chef de projet fonctionnel et technique</div><br><br>
+                    <div class="title2">Chef de projet & développeur FullStack</div><br><br>
                     <div class="description">
-                        Architecte logiciel et développeur d’applications diplomé d’un master 2, je me spécialise dans la gestion de projets techniques. <br>
-                        Depuis trois ans, j'évolue chez Carrefour en tant qu'alternant, d'abord en tant que développeur fullstack, puis en tant que chef de projet IT.<br>
-                        Au cours de mon parcours, j'ai acquis des compétences solides en développement logiciel, gestion de projet, et pilotage d'équipes techniques. 
-                        J'ai eu la chance de contribuer à différents projets stratégiques chez Carrefour, en apportant mon expertise technique et en participant à la transformation digitale de l'entreprise.<br>
-                        Passionné par la technologie et le management, je suis à la recherche de nouvelles opportunités pour continuer mon parcours dans la gestion de projets IT et contribuer à des initiatives innovantes.
+                        Architecte logiciel et développeur d’applications diplomé d’un master 2, je me spécialise dans
+                        la gestion de projets techniques. <br>
+                        Depuis trois ans, j'évolue chez Carrefour en tant qu'alternant, d'abord en tant que développeur
+                        fullstack, puis en tant que chef de projet IT.<br>
+                        Au cours de mon parcours, j'ai acquis des compétences solides en développement logiciel, gestion
+                        de projet, et pilotage d'équipes techniques.
+                        J'ai eu la chance de contribuer à différents projets stratégiques chez Carrefour, en apportant
+                        mon expertise technique et en participant à la transformation digitale de l'entreprise.<br>
+                        Passionné par la technologie et le management, je suis à la recherche de nouvelles opportunités
+                        pour continuer mon parcours dans la gestion de projets IT et contribuer à des initiatives
+                        innovantes.
                     </div>
                 </div>
                 <div class="pic">
@@ -41,96 +50,58 @@
         <div class="content1x">
         </div>
     </div> -->
-    <div class="engagements" id="valeurs">
+    <div class="engagements" id="contact">
         <div class="content1">
             <div class="block">
                 <div class="title1">
-                    Mes valeurs
+                    Me contacter
+                </div><br>
+                <div class="description">
+                    N'hésitez pas à me contacter par les moyens suivants: <br><br><br>
                 </div>
                 <div class="grid">
                     <div class="box">
-                        <div class="number">1</div>
                         <div class="text">
-                            <div class="title2">Innovation</div>
+                            <img src="img/e-mail.png"><br><br>
+                            <div class="title2">Mail</div>
                             <div class="description">
-                                Je m'intéresse constamment aux nouvelles technologies et à ce qu'elles apportent,
-                                et j'essaie de les implémenter dans mes travaux.
+                                <a id="tocopy" class="js-copy"
+                                    data-target="#tocopy"><u>pgillet.iphone@gmail.com</u></a><br><br><br>
                             </div>
                         </div>
                     </div>
                     <div class="box">
-                        <div class="number">2</div>
                         <div class="text">
-                            <div class="title2">Hybride</div>
+                            <img src="img/linkedin.png"><br><br>
+                            <div class="title2">LinkedIn</div>
                             <div class="description">
-                                J'ai des facilités à travailler seul comme en équipe, sur site ou en télétravail, la
-                                qualité de mon travail n'est pas impactée.
+                                <a href="https://www.linkedin.com/in/gilletpaul/"
+                                    target="_blank">gilletpaul</a><br><br><br>
                             </div>
                         </div>
                     </div>
                     <div class="box">
-                        <div class="number">3</div>
                         <div class="text">
-                            <div class="title2">Intégrité</div>
+                            <img src="img/github.png"><br><br>
+                            <div class="title2">Github</div>
                             <div class="description">
-                                Je mets un point d'honneur à être intègre, mettant de l'importance dans la distinction
-                                entre ma vie personnelle et professionnelle.
+                                <a href="https://github.com/GilletPaul" target="_blank">GilletPaul</a><br><br><br>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="buttoncv">
+                    <button class="pushable" id="downloadButton" onclick="downloadPDF()">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span id="close-overlay" class="front">
+                            Télécharger mon CV
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="valeurs">
-        <div class="content1">
-            <div class="block">
-                <div class="title1">
-                    Nos valeurs
-                </div><br>
-                <div class="description">
-                    Établir une réputation solide par l’action et la satisfaction
-                </div>
-                <div class="container">
-                    <div class="fiabilite">
-                        <div class="box">
-                            <div class="title3">
-                                <b>Fiabilité</b>
-                            </div>
-                            <div class="description1">
-                                <p>La D&S s’engage à déployer dans la précision, la ponctualité et sans erreur</p>
-                            </div>
-                        </div>
-                        <div class="triangle-topleft"></div>
-                    </div>
-                    <div class="qualite">
-                        <div class="box">
-                            <div class="title3">
-                                <b>Qualité</b>
-                            </div>
-                            <div class="description1">
-                                <p>La direction D&S s’engage à déployer des matériels aux normes de qualité établies,
-                                    offrant ainsi une expérience utilisateur optimale</p>
-                            </div>
-                        </div>
-                        <div class="triangle-topleft"></div>
-                    </div>
-                    <div class="service">
-                        <div class="box">
-                            <div class="title3">
-                                <b>Service clients</b>
-                            </div>
-                            <div class="description1">
-                                <p>s'engage tout au long du processus de déploiement à communiquer avec son client,
-                                    l’écouter et l’assister</p>
-                            </div>
-                        </div>
-                        <div class="triangle-topleft"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="activite" id="realisations">
         <div class="content1">
             <div class="block">
@@ -180,7 +151,7 @@
                             <div class="mission">
                                 <div class="box">
                                     <div class="title3">
-                                        <b>Bot Discord</b>
+                                        <b>AI4IT</b>
                                     </div>
                                     <div class="description1">
                                         <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
@@ -192,23 +163,24 @@
                             </div>
                         </button>
                         <div class="hider" id="hider22">
-                            <div class="title2">Bot Discord</div><br><br>
-                            <p>J'ai réalisé un bot discord en javascript.<br>
-                                Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter
-                                à
-                                l'API
-                                de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il
-                                est
-                                également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer
-                                le
-                                son
-                                en question. </p>
+                            <div class="title2">AI4IT</div><br><br>
+                            <p>AI4IT est un outil d'accompagnement avec l'intelligence artificielle.<br> 
+                                Avec un backend développé en java avec Spring Boot et un front-end développé en Angular et TypeScript, AI4IT fonctionne sur la base de Gemini de Google. 
+                                J'ai participé à la réalisation de ce projet lors de ma dernière année d'alternance au sein de Carrefour, et j'ai eu l'occasion d'être chef de projet sur ce dernier et également développeur FullStack.<br><br> </p>
+                                <div class="list-img">
+                                    <img src="img/ai4it1.png" alt="page d'accueil ai4it"
+                                        class="fullscreen-trigger" data-src="img/ai4it1.png">&nbsp
+                                    <img src="img/ai4it2.png" alt="page gestion des agents ai4it"
+                                        class="fullscreen-trigger" data-src="img/ai4it2.png">&nbsp
+                                    <img src="img/ai4it3.png" alt="reponse ia ai4it"
+                                        class="fullscreen-trigger" data-src="img/ai4it3.png">
+                                </div>
                         </div>
                         <button id="show-content3" class="showbutton">
                             <div class="valeur">
                                 <div class="box">
                                     <div class="title3">
-                                        <b>OSP Patching</b>
+                                        <b>KIM</b>
                                     </div>
                                     <div class="description1">
                                         <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
@@ -240,103 +212,25 @@
                         </div>
                     </div>
                     <div class="hider" id="hider2">
-                        <div class="title2">Bot Discord</div><br><br>
-                        <p>J'ai réalisé un bot discord en javascript.<br>
-                            Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter à
-                            l'API
-                            de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il est
-                            également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer le
-                            son
-                            en question. </p>
+                        <div class="title2">AI4IT</div><br><br>
+                        <p>AI4IT est un outil d'accompagnement avec l'intelligence artificielle.<br> 
+                            Avec un backend développé en java avec Spring Boot et un front-end développé en Angular et TypeScript, AI4IT fonctionne sur la base de Gemini de Google. 
+                            J'ai participé à la réalisation de ce projet lors de ma dernière année d'alternance au sein de Carrefour, et j'ai eu l'occasion d'être chef de projet sur ce dernier et également développeur FullStack.<br><br> </p>
+                            <div class="list-img">
+                                <img src="img/ai4it1.png" alt="page d'accueil ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it1.png">&nbsp
+                                <img src="img/ai4it2.png" alt="page gestion des agents ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it2.png">&nbsp
+                                <img src="img/ai4it3.png" alt="reponse ia ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it3.png">
+                            </div>
                     </div>
                     <div class="hider" id="hider3">
-                        <div class="title2">OSP Patching</div><br><br>
-                        <p>OSP Patching était un outil que j'ai développé sur une application web appelé OSP. OSP était
-                            une
-                            application développée intégralement par des alternants comme moi.<br>
-                            L'outil que j'y ai développé était un calendrier de référencement de date de patching sur
-                            des
-                            machines. Il était développé en Angular et Node.js. </p>
-                    </div>
-                    <div class="container">
-                        <button id="show-content4" class="showbutton">
-                            <div class="vision1">
-                                <div class="box">
-                                    <div class="title3">
-                                        <b>KIM</b>
-                                    </div>
-                                    <div class="description1">
-                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
-                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </button>
-                        <div class="hider" id="hider42">
-                            <div class="title2">KIM</div><br><br>
-                            <p>KIM (KPI IT Magasins) est une application de visualisation de KPI de déploiement pour les
-                                magasins Carrefour. <br>
-                                L'objectif de cette application était de voir les déploiements à venir ainsi que les
-                                erreurs
-                                dans les déploiements (retard, déploiement mal renseigné, etc...)<br><br>
-                                Ce projet fut un projet essentiel de ma dernière mission. </p>
-                            <p>Quelques screenshots du projet terminé:<br><br></p>
-                            <div class="list-img">
-                                <img src="img/KIM-acceil.png" alt="page d'accueil maquette Centralized"
-                                    class="fullscreen-trigger" data-src="img/KIM-acceil.png">&nbsp
-                                <img src="img/KIM-deploiement.png" alt="page d'accueil maquette Centralized"
-                                    class="fullscreen-trigger" data-src="img/KIM-deploiement.png">&nbsp
-                                <img src="img/KIM-error.png" alt="page login maquette Centralized"
-                                    class="fullscreen-trigger" data-src="img/KIM-error.png">
-                            </div>
-                        </div>
-                        <button id="show-content5" class="showbutton">
-                            <div class="mission1">
-                                <div class="box">
-                                    <div class="title3">
-                                        <b>Look at Me</b>
-                                    </div>
-                                    <div class="description1">
-                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
-                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
-                                        clients
-                                        finaux.</p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </button>
-                        <div class="hider" id="hider52">
-                            <div class="title2">Look at Me</div><br><br>
-                            <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu
-                                vidéo
-                                type
-                                visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez
-                                les
-                                jeunes.<br>
-                                Notre objectif était de faire un jeu choc pour marquer les esprits. Nous l'avons réalisé
-                                avec
-                                Unity.</p>
-                        </div>
-                        <button id="show-content6" class="showbutton">
-                            <div class="valeur1">
-                                <div class="box">
-                                    <div class="title3">
-                                        <b>Vitrine</b>
-                                    </div>
-                                    <div class="description1">
-                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
-                                        Nous
-                                        visons l'excellence.</p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </button>
-                    </div>
-                    <div class="hider" id="hider4">
                         <div class="title2">KIM</div><br><br>
                         <p>KIM (KPI IT Magasins) est une application de visualisation de KPI de déploiement pour les
                             magasins Carrefour. <br>
-                            L'objectif de cette application était de voir les déploiements à venir ainsi que les erreurs
+                            L'objectif de cette application était de voir les déploiements à venir ainsi que les
+                            erreurs
                             dans les déploiements (retard, déploiement mal renseigné, etc...)<br><br>
                             Ce projet fut un projet essentiel de ma dernière mission. </p>
                         <p>Quelques screenshots du projet terminé:<br><br></p>
@@ -349,27 +243,99 @@
                                 class="fullscreen-trigger" data-src="img/KIM-error.png">
                         </div>
                     </div>
+                    <div class="container">
+                        <button id="show-content4" class="showbutton">
+                            <div class="vision1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>OSP Patching</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Nous aspirons à une réputation solide par l’action et la satisfaction de nos
+                                        utilisateurs en magasin, et in fine, nos clients finaux</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider42">
+                            <div class="title2">OSP Patching</div><br><br>
+                            <p>OSP Patching était un outil que j'ai développé sur une application web appelé OSP. OSP
+                                était
+                                une
+                                application développée intégralement par des alternants comme moi.<br>
+                                L'outil que j'y ai développé était un calendrier de référencement de date de patching
+                                sur
+                                des
+                                machines. Il était développé en Angular et Node.js.<br><br> </p>
+                                <div class="list-img">
+                                    <img src="img/OSP.png" alt="planning OSP"
+                                        class="fullscreen-trigger" data-src="img/OSP.png">&nbsp
+                                </div>
+                        </div>
+                        <button id="show-content5" class="showbutton">
+                            <div class="mission1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Test End2End</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
+                                        ergonomique pour garantir un meilleur parcours d’achat ou de visite à nos
+                                        clients
+                                        finaux.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="hider" id="hider52">
+                            <div class="title2">Test End2End</div><br><br>
+                            <p>Lors de la fin première année d'alternance à Carrefour, je travaillais au sein de l'OS Factory. L'objectif était de réaliser des Machines Virtuelles aux normes de l'entreprise. <br>
+                                Mon but était de réaliser des tests End2End, c'est-à-dire un script ansible pour vérifier l'installation des logiciels et applications  de sécurité des VMs que nous produisions sur les clouds GCP et Azures. </p>
+                        </div>
+                        <button id="show-content6" class="showbutton">
+                            <div class="valeur1">
+                                <div class="box">
+                                    <div class="title3">
+                                        <b>Look at Me</b>
+                                    </div>
+                                    <div class="description1">
+                                        <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
+                                        Nous
+                                        visons l'excellence.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="hider" id="hider4">
+                        <div class="title2">OSP Patching</div><br><br>
+                        <p>OSP Patching était un outil que j'ai développé sur une application web appelé OSP. OSP était
+                            une
+                            application développée intégralement par des alternants comme moi.<br>
+                            L'outil que j'y ai développé était un calendrier de référencement de date de patching sur
+                            des
+                            machines. Il était développé en Angular et Node.js. <br><br></p>
+                            <div class="list-img">
+                                <img src="img/OSP.png" alt="planning OSP"
+                                    class="fullscreen-trigger" data-src="img/OSP.png">&nbsp
+                            </div>
+                    </div>
                     <div class="hider" id="hider5">
+                        <div class="title2">Test End2End</div><br><br>
+                        <p>Lors de la fin première année d'alternance à Carrefour, je travaillais au sein de l'OS Factory. L'objectif était de réaliser des Machines Virtuelles aux normes de l'entreprise. <br>
+                            Mon but était de réaliser des tests End2End, c'est-à-dire un script ansible pour vérifier l'installation des logiciels et applications  de sécurité des VMs que nous produisions sur les clouds GCP et Azures. </p>
+                    </div>
+                    <div class="hider" id="hider6">
                         <div class="title2">Look at Me</div><br><br>
-                        <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu vidéo
+                        <p>Look at Me fut le projet de la validation de mon Bachelor à l'ETNA. Il s'agit d'un jeu
+                            vidéo
                             type
-                            visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez les
+                            visual novel qui abordait la problématique du harcèlement et du Cyber-harcèlement chez
+                            les
                             jeunes.<br>
                             Notre objectif était de faire un jeu choc pour marquer les esprits. Nous l'avons réalisé
                             avec
                             Unity.</p>
-                    </div>
-                    <div class="hider" id="hider6">
-                        <div class="title2">Vitrine</div><br><br>
-                        <p>J'ai eu l'occasion de réaliser des sites vitrine que ce soit cette année pour ma direction ou
-                            encore des portefolios pour des amis. </p><br>
-                        <a href="https://elenadavid.github.io" target="_blank"><button class="pushable">
-                                <span class="shadow"></span>
-                                <span class="edge"></span>
-                                <span id="close-overlay" class="front">
-                                    Portfolio Elena David
-                                </span>
-                            </button></a>
                     </div>
                 </div>
                 <div id="size2">
@@ -391,7 +357,7 @@
                             <div class="mission">
                                 <div class="box">
                                     <div class="title3">
-                                        <b>Bot Discord</b>
+                                        <b>AI4IT</b>
                                     </div>
                                     <div class="description1">
                                         <!-- <p>Notre mission est de fournir aux magasins, du matériel robuste, fonctionnel et
@@ -424,14 +390,18 @@
                         </div>
                     </div>
                     <div class="hider" id="hider23">
-                        <div class="title2">Bot Discord</div><br><br>
-                        <p>J'ai réalisé un bot discord en javascript.<br>
-                            Il a les spécificités classiques d'un bot discord sauf qu'il est capable de se connecter à
-                            l'API
-                            de openai pour pouvoir interagir avec chatGPT directement depuis un serveur discord. Il est
-                            également capable de faire du "TTS" (text to speech) en venant dans un vocal pour jouer le
-                            son
-                            en question. </p>
+                        <div class="title2">AI4IT/div><br><br>
+                        <p>AI4IT est un outil d'accompagnement avec l'intelligence artificielle.<br> 
+                            Avec un backend développé en java avec Spring Boot et un front-end développé en Angular et TypeScript, AI4IT fonctionne sur la base de Gemini de Google. 
+                            J'ai participé à la réalisation de ce projet lors de ma dernière année d'alternance au sein de Carrefour, et j'ai eu l'occasion d'être chef de projet sur ce dernier et également développeur FullStack.<br><br> </p>
+                            <div class="list-img">
+                                <img src="img/ai4it1.png" alt="page d'accueil ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it1.png">&nbsp
+                                <img src="img/ai4it2.png" alt="page gestion des agents ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it2.png">&nbsp
+                                <img src="img/ai4it3.png" alt="reponse ia ai4it"
+                                    class="fullscreen-trigger" data-src="img/ai4it3.png">
+                            </div>
                     </div>
                     <div class="container">
                         <button id="show-content33" class="showbutton">
@@ -469,7 +439,11 @@
                             application développée intégralement par des alternants comme moi.<br>
                             L'outil que j'y ai développé était un calendrier de référencement de date de patching sur
                             des
-                            machines. Il était développé en Angular et Node.js. </p>
+                            machines. Il était développé en Angular et Node.js.<br><br> </p>
+                            <div class="list-img">
+                                <img src="img/OSP.png" alt="planning OSP"
+                                    class="fullscreen-trigger" data-src="img/OSP.png">&nbsp
+                            </div>
                     </div>
                     <div class="hider" id="hider43">
                         <div class="title2">KIM</div><br><br>
@@ -509,7 +483,7 @@
                             <div class="valeur1">
                                 <div class="box">
                                     <div class="title3">
-                                        <b>Vitrine</b>
+                                        <b>Look at Me</b>
                                     </div>
                                     <div class="description1">
                                         <!-- <p>La fiabilité, la qualité et le service client sont nos valeurs fondamentales.
@@ -531,7 +505,7 @@
                             Unity.</p>
                     </div>
                     <div class="hider" id="hider63">
-                        <div class="title2">Vitrine</div><br><br>
+                        <div class="title2">Look at Me</div><br><br>
                         <p>J'ai eu l'occasion de réaliser des sites vitrine que ce soit cette année pour ma direction ou
                             encore des portefolios pour des amis. </p><br>
                         <a href="https://elenadavid.github.io" target="_blank"><button class="pushable">
@@ -546,54 +520,43 @@
             </div>
         </div>
     </div>
-    <div class="orga" id="contact">
+    <div class="orga" id="valeurs">
         <div class="content1">
             <div class="block">
                 <div class="title1">
-                    Me contacter
-                </div><br>
-                <div class="description">
-                    N'hésitez pas à me contacter par les moyens suivants: <br><br><br>
+                    Mes valeurs
                 </div>
                 <div class="grid">
                     <div class="box">
+                        <div class="number">1</div>
                         <div class="text">
-                            <img src="img/e-mail.png"><br><br>
-                            <div class="title2">Mail</div>
+                            <div class="title2">Innovation</div>
                             <div class="description">
-                                <a id="tocopy" class="js-copy"
-                                data-target="#tocopy"><u>pgillet.iphone@gmail.com</u></a><br><br><br>
+                                Je m'intéresse constamment aux nouvelles technologies et à ce qu'elles apportent,
+                                et j'essaie de les implémenter dans mes travaux.
                             </div>
                         </div>
                     </div>
                     <div class="box">
+                        <div class="number">2</div>
                         <div class="text">
-                            <img src="img/linkedin.png"><br><br>
-                            <div class="title2">LinkedIn</div>
+                            <div class="title2">Hybride</div>
                             <div class="description">
-                                <a href="https://www.linkedin.com/in/gilletpaul/"
-                                    target="_blank">gilletpaul</a><br><br><br>
+                                J'ai des facilités à travailler seul comme en équipe, sur site ou en télétravail, la
+                                qualité de mon travail n'est pas impactée.
                             </div>
                         </div>
                     </div>
                     <div class="box">
+                        <div class="number">3</div>
                         <div class="text">
-                            <img src="img/github.png"><br><br>
-                            <div class="title2">Github</div>
+                            <div class="title2">Intégrité</div>
                             <div class="description">
-                                <a href="https://github.com/GilletPaul" target="_blank">GilletPaul</a><br><br><br>
+                                Je mets un point d'honneur à être intègre, mettant de l'importance dans la distinction
+                                entre ma vie personnelle et professionnelle.
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="buttoncv">
-                    <button class="pushable" id="downloadButton" onclick="downloadPDF()">
-                        <span class="shadow"></span>
-                        <span class="edge"></span>
-                        <span id="close-overlay" class="front">
-                            Télécharger mon CV
-                        </span>
-                    </button>
                 </div>
             </div>
         </div>
@@ -609,7 +572,7 @@
                 </div> -->
                 <div class="description">
                     Copyright © Portfolio Paul Gillet<br><br><br>
-                    Mise à jour: Octobre 2024
+                    Mise à jour: Décembre 2024
                     <!-- Réalisé par Paul GILLET -->
                 </div>
             </div>
